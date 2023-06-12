@@ -1,0 +1,11 @@
+#7. Solid colors(r,g,b)
+
+#RED COLOR
+import numpy as np
+import cv2
+
+img = np.zeros((250,250,3))#BLACK BACKGROUND
+img[:]=0,3,0  #assigning the color(b,g,r)
+cv2.imshow('GREEN',img)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
