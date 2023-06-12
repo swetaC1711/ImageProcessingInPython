@@ -5,3 +5,8 @@ img = cv2.imread('abc.jpg') #We are reading the image and storing it inside the 
 cv2.imshow('OUTPUT',img)#we are displaying the image
 cv2.waitKey(0)#3000milisecond --> 3sec, by giving 0 it will stays forever
 cv2.destroyAllWindows()#it will close all previously open Image windows
+
+
+
+
+//IMAGELINK:- https://drive.google.com/file/d/139wJ7KHCL8gUB7mjPN0QhvPdjpgDob99/view?usp=drive_link
