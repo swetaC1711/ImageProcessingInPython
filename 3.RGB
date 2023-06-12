@@ -1,0 +1,11 @@
+#READ INFORMATON OF THE IMAGE
+
+import cv2
+img=cv2.imread('abc.jpg')
+print(img.shape)
+
+#OUTPUT:  (344, 612, 3)
+'''
+344 is the Height of image in pixels
+612 is the width of image in pixels
+3 isthe depth/channel number - primary colour(R,G,B)'''
