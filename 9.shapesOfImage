@@ -1,0 +1,11 @@
+#9. SQUARE / RECTANGLE
+
+import cv2
+import numpy as np
+
+img = np.zeros((500,500,3))#blackbackground
+cv2.rectangle(img,(150,250),(400,400),(0,0,255),5)  #(img,(location at background((x,y),(x+w,y+x))),(width,height),(color b,g,r),sizeofline(inheight))
+
+cv2.imshow('Rectangle',img)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
