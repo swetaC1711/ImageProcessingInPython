@@ -1,0 +1,10 @@
+#2. Createin New image of different extension
+
+import cv2
+img = cv2.imread('abc.jpg')#reading the image
+cv2.imshow('IMAGE1',img)#display the image
+
+cv2.imwrite('sweta.png',img)#create a new image
+
+cv2.waitKey(0)
+cv2.destroyAllWindows()
