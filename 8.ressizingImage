@@ -1,0 +1,25 @@
+#8. RESIZING/SCALING THE IMAGE
+
+import cv2
+import numpy as np
+
+img = cv2.imread('abc.jpg')
+
+cv2.imshow('Original Image',img)
+cv2.waitKey(500)
+
+
+#lets scale down the image
+img1=cv2.resize(img,None, fx=0.75,fy=0.75)
+cv2.imshow('Scaling - Scale down',img1)
+
+#lets scaleup the image
+img2= cv2.resize(img,None,fx=1.25,fy=1.25)
+cv2.imshow('Scaling- Scale up',img2)
+
+#lets scale for custom dimensions
+img3=cv2.resize(img,(1000,400))
+cv2.imshow('Scaling - Custom dimension',img3)
+
+cv2.waitKey(0)
+cv2.destroyAllWindows()
